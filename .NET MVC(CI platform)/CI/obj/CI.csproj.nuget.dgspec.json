@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jayesh hadiya\\Desktop\\2023\\CI\\CI.csproj": {}
+    "C:\\Users\\jayesh hadiya\\Desktop\\TS-assignment\\.NET MVC(CI platform)\\CI\\CI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jayesh hadiya\\Desktop\\2023\\CI\\CI.csproj": {
+    "C:\\Users\\jayesh hadiya\\Desktop\\TS-assignment\\.NET MVC(CI platform)\\CI\\CI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jayesh hadiya\\Desktop\\2023\\CI\\CI.csproj",
+        "projectUniqueName": "C:\\Users\\jayesh hadiya\\Desktop\\TS-assignment\\.NET MVC(CI platform)\\CI\\CI.csproj",
         "projectName": "CI",
-        "projectPath": "C:\\Users\\jayesh hadiya\\Desktop\\2023\\CI\\CI.csproj",
+        "projectPath": "C:\\Users\\jayesh hadiya\\Desktop\\TS-assignment\\.NET MVC(CI platform)\\CI\\CI.csproj",
         "packagesPath": "C:\\Users\\jayesh hadiya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jayesh hadiya\\Desktop\\2023\\CI\\obj\\",
+        "outputPath": "C:\\Users\\jayesh hadiya\\Desktop\\TS-assignment\\.NET MVC(CI platform)\\CI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jayesh hadiya\\AppData\\Roaming\\NuGet\\NuGet.Config",
