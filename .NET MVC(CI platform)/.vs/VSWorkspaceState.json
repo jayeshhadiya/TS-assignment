@@ -3,8 +3,11 @@
     "",
     "\\CI",
     "\\CI\\Views",
-    "\\CI\\Views\\Home"
+    "\\CI\\Views\\Home",
+    "\\CI\\wwwroot",
+    "\\CI\\wwwroot\\css",
+    "\\CI\\wwwroot\\js"
   ],
-  "SelectedNode": "\\CI\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\CI\\CI.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/Home.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <title>Home</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm">
+    <div class="container-fluid">
+        <span class="col-sm-3"></span>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#togglebtn">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="togglebtn">
+            <ul class="navbar-nav me-auto col-sm-7">
+                <li class="nav-item text-dark">
+                    <a class="nav-link me-5" href="#">Stories</a>
+                </li>
+                <li class="nav-item dropdown text-dark">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Policy</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">We don't care</a></li>
+                        <li><a class="dropdown-item" href="#">Just grow up...</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="navbar-nav me-auto col-sm-3">
+                <li class="nav-item dropdown">
+                    <div>
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                            <img class="me-2" src="/images/user-img.png" style="border-radius: 50%;height: 40px;width: 40px;" alt="">Evan Donohue</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Look at you</a></li>
+                            <li><a class="dropdown-item" href="#">How Disgusting</a></li>
+                            <li><a class="dropdown-item" href="#">worthless u r</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<div class="container-fluid mt-0">
+    <div class="row p-3 shadow-sm border-top border-bottom ">
+        <span class="col-sm-2"></span>
+        <div class="col-sm-4">
+            <form class="d-flex">
+<!--<button type="button" class="btn btn-default">
+                <img src="/images/search.png">
+                <span class="glyphicon glyphicon-search"></span> Search
+              </button>-->
+              
+                  <i class="fa fa-search"></i>
+                  <input  type="text" class="form-control form-input" placeholder="search anythings....">
+                  
+
+                  
+              
+            </form>
+        </div>
+        <div class="col-sm-6" style="display :flex">
+            <div class="dropdown">
+                <button type="button" class="btn dropdown-toggle me-5 border-start h-100 " data-bs-toggle="dropdown">
+                    Countries
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">India</a></li>
+                    <li><a class="dropdown-item" href="#">Japan</a></li>
+                    <li><a class="dropdown-item" href="#">China</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button type="button" class="btn dropdown-toggle me-5 border-start " data-bs-toggle="dropdown">
+                    Cities
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Surat</a></li>
+                    <li><a class="dropdown-item" href="#">Pune</a></li>
+                    <li><a class="dropdown-item" href="#">Mumbai</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button type="button" class="btn dropdown-toggle me-5 border-start " data-bs-toggle="dropdown">
+                    Themes
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Link 1</a></li>
+                    <li><a class="dropdown-item" href="#">Link 2</a></li>
+                    <li><a class="dropdown-item" href="#">Link 3</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button type="button" class="btn dropdown-toggle me-5 border-start " data-bs-toggle="dropdown">
+                    Skills
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Link 1</a></li>
+                    <li><a class="dropdown-item" href="#">Link 2</a></li>
+                    <li><a class="dropdown-item" href="#">Link 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+    
+</body>
+</html>
